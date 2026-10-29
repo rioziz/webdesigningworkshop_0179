@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking Form</title>
+</head>
+<body>
+    <h1>HOTEL ROOM BOOKING FORM</h1>
+    
+    <form>
+        <!-- FULL NAME -->
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" id="fullname" name="fullname" required>
+        <br><br>
+
+        <!-- EMAIL -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- PHONE -->
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+
+        <!-- CHECK-IN DATE -->
+        <label for="checkin">Check-in Date:</label><br>
+        <input type="date" id="checkin" name="checkin" required>
+        <br><br>
+
+        <!-- CHECK-OUT DATE -->
+        <label for="checkout">Check-out Date:</label><br>
+        <input type="date" id="checkout" name="checkout" required>
+        <br><br>
+
+        <!-- ROOM TYPE -->
+        <label for="roomtype">Room Type:</label><br>
+        <select id="roomtype" name="roomtype">
+            <option value="single">Single</option>
+            <option value="double">Double</option>
+            <option value="suite">Suite</option>
+        </select>
+        <br><br>
+
+        <!-- NO OF GUESTS -->
+        <label for="guests">Number of Guests:</label><br>
+        <input type="number" id="guests" name="guests" min="1" max="10" required>
+        <br><br>
+
+        <!-- SPECIAL REQUESTS -->
+        <label for="requests">Special Requests:</label><br>
+        <textarea id="requests" name="requests" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <!-- SUBMIT BUTTON -->
+        <input type="submit" value="Book Now">
+        
+        <!-- RESET FORM -->
+        <input type="reset" value="Reset Form">
+    </form>
+
+    <hr>
+
+    <!-- Student Details Footer -->
+    <footer>
+        <h3>Student Details</h3>
+        <p>
+            <b>Name:</b> Saksham Singh <br>
+            <b>Branch and Section:</b> CSE - 12 <br>
+            <b>Admission Number:</b> 2026B01010179 <br>
+        </p>
+    </footer>
+</body>
+</html>
