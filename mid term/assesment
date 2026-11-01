@@ -9,9 +9,14 @@
     <h1>Famous Monument</h1>
 
     <figure>
-        <img src="https://share.google/2P0zapx0Dal9YFl8q" alt="Taj Mahal in Agra, India" width="400" height="250">
-        <figcaption>Figure 1: The Taj Mahal – Agra, India</figcaption>
-    </figure>
+    <!-- Taj Mahal in Moonlight -->
+    <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%20in%20Moonlight.jpg"
+    alt="Taj Mahal under moonlight"
+    width="400"
+    height="250">
+
+    <figcaption>Figure 1: The Taj Mahal in Moonlight, Agra, India</figcaption>
+</figure>
 
 </body>
 </html>
