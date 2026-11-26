@@ -26,9 +26,9 @@
     <!-- Labeled search input and landmark -->
     <section aria-label="Site search">
       <label for="search-input">Search:</label>
-      <input type="search" id="search-input" name="q">
+      <input type="search" id="search-inputyu" name="q">
     </section>
   </main>
-
+s
 </body>
 </html>
