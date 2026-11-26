@@ -51,10 +51,9 @@
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label>
       </p>
-
       <p>
         Hobbies:
-        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <input type="checkbox" id="readng" name="hobbies" value="reading">
         <label for="reading">Reading</label>
 
         <input type="checkbox" id="coding" name="hobbies" value="coding">
