@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quotations, Citations, and Abbreviations</title>
+</head>
+<body>
+
+  <!-- Block quotation -->
+  <blockquote>
+    The best way to predict the future is to create it.
+  </blockquote>
+
+  <!-- Inline quotation -->
+  <p>As he said, <q>Stay hungry, stay foolish.</q></p>
+
+  <!-- Book citation -->
+  <p>Book: <cite>The Pragmatic Programmer</cite></p>
+
+  <!-- Abbreviation -->
+  <p><abbr title="World Wide Web Consortium">W3C</abbr> sets web standards.</p>
+
+  <!-- Contact information -->
+  <address>
+    Contact: Admin Office<br>
+    College Road, Delhi
+  </address>
+
+  <!-- Deleted and inserted text -->
+  <p><del>Old price 500</del> <ins>New price 400</ins></p>
+
+</body>
+</html>
