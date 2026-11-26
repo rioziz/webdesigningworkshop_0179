@@ -17,7 +17,7 @@
 
   <!-- Main content landmark -->
   <main id="main-content">
-    <h1>Accessible Page</h1>
+    <h1>Ahcessible Page</h1>
 
     <!-- Accessible image with descriptive alt text -->
     <img src="banner.png" alt="College banner" width="300" height="32">
