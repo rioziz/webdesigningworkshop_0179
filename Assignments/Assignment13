@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weekly Timetable</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      font-family: Georgia, serif;
+    }
+
+    caption {
+      margin-bottom: 6px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    th, td {
+      border: 1px solid #333333;
+      padding: 8px 14px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Weekly Timetable</caption>
+
+    <thead>
+      <tr>
+        <th scope="col">Day</th>
+        <th scope="col">9-10</th>
+        <th scope="col">10-11</th>
+        <th scope="col">11-12</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Mon</td>
+        <td>Maths</td>
+        <td>HTML</td>
+        <td rowspan="2">Web Lab</td>
+      </tr>
+      <tr>
+        <td>Tue</td>
+        <td>DBMS</td>
+        <td>OS</td>
+      </tr>
+      <tr>
+        <td>Wed</td>
+        <td colspan="3">Seminar</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
