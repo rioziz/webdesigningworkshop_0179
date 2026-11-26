@@ -172,7 +172,7 @@
           </div>
 
           <div class="form-group">
-            <label for="applicant-cours">Course:</label>
+            <label for="applicant-course">Course:</label>
             <select id="applicant-course" name="course" required>
               <option value="B.Tech CSE" selected>B.Tech CSE</option>
               <option value="BCA">BCA</option>
