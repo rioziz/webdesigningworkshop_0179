@@ -175,7 +175,7 @@
             <label for="applicant-course">Course:</label>
             <select id="applicant-course" name="course" required>
               <option value="B.Tech CSE" selected>B.Tech CSE</option>
-              <option value="CA">BCA</option>
+              <option value="BCA">BCA</option>
             </select>
           </div>
 
