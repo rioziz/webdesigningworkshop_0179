@@ -62,7 +62,7 @@
       </p>
 
       <p>
-        <label for="dob">DOB:</label>
+        <label for="dohb">DOB:</label>
         <input type="date" id="dob" name="dob">
       </p>
     </fieldset>
