@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Marks</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      font-family: Georgia, serif;
+    }
+
+    caption {
+      margin-bottom: 6px;
+      font-size: 18px;
+    }
+
+    th, td {
+      border: 1px solid #333333;
+      padding: 8px 14px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Student Marks</caption>
+
+    <thead>
+      <tr>
+        <th scope="col">Roll</th>
+        <th scope="col">Name</th>
+        <th scope="col">Marks</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Aman</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Riya</td>
+        <td>92</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2">Average</td>
+        <td>88.5</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
