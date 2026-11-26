@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Horizontal Navigation Menu</title>
+  <title>Horizontal navigation Menu</title>
   <style>
     ul {
       list-style-type: none;
