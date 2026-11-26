@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select, Textarea and Buttons</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 20px;
+    }
+
+    p {
+      margin: 14px 0;
+    }
+
+    select {
+      font-family: Georgia, serif;
+      font-size: 16px;
+      padding: 4px 8px;
+    }
+
+    textarea {
+      display: block;
+      margin-top: 8px;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      padding: 6px 8px;
+    }
+
+    button {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      padding: 6px 12px;
+      margin-right: 6px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="#" method="post">
+    <p>
+      <label for="course">Course:</label>
+      <select id="course" name="course">
+        <option value="CSE">CSE</option>
+        <option value="ECE" selected>ECE</option>
+        <option value="ME">ME</option>
+        <option value="CE">CE</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="5" cols="45" placeholder="Write here..."></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+      <button type="button" onclick="alert('Button clicked!')">Click Me</button>
+    </p>
+  </form>
+
+</body>
+</html>
