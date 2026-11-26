@@ -40,7 +40,7 @@
 </head>
 <body>
 
-  <div class="table-rasponsive">
+  <div class="table-responsive">
     <table>
       <thead>
         <tr>
