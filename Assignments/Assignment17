@@ -98,7 +98,7 @@
     </p>
 
     <p>
-      <button type="subit">Register</button>
+      <button type="submit">Register</button>
     </p>
   </form>
 
