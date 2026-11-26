@@ -47,7 +47,7 @@
           <th scope="col">Day</th>
           <th scope="col">Lab Batches</th>
           <th scope="col">Faculty</th>
-          <th scope="col">Roi</th>
+          <th scope="col">Room</th>
           <th scope="col">Time</th>
         </tr>
       </thead>
