@@ -21,7 +21,7 @@
 
     <!-- Accessible image with descriptive alt text -->
     <img src="banner.png" alt="College banner" width="300" height="32">
-    <button type="button" aria-label="Cpose banner">X</button>
+    <button type="button" aria-label="Chose banner">X</button>
 
     <!-- Labeled search input and landmark -->
     <section aria-label="Site search">
