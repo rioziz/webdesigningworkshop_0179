@@ -15,7 +15,7 @@
   <a href="#bottom" title="Scroll down to bottom">Jump to bottom</a><br>
 
   <!-- Email Link -->
-  <a href="mailto:info@example.com?subject=Inquiry" title="Sens us an email">Email us</a><br>
+  <a href="mailto:info@example.com?subject=Inquiry" title="Send us an email">Email us</a><br>
 
   <!-- Image Link -->
   <a href="https://www.example.com" target="_blank" title="Click logo to visit homepage">
